@@ -1,13 +1,18 @@
-.masthead {
-  height: 100vh;
-  min-height: 500px;
-  background-image: url('img/lbry-co-bg.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+:root {
+  --green: #09F911;
+  --dark-green: #029D74;
+  --dark-pink: #E35BD8;
+  --dark-blue: #4156C5;
+  --violet: #635688;
 }
 
-.textbg {
-  background-color: #FFFFFF;
-  opacity: 0.7;
+header {
+  height: 10vh;
+  min-height: 85px;
+}
+
+#hero {
+  height: 87vh;
+  color: var(--dark-green);
+  background-color: #ffffff;
 }
