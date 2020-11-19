@@ -10,6 +10,14 @@ body {
   background-color: #ffffff;
 }
 
+.btn {
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+  transition-duration: 0.3s;
+}
 header {
   height: 10vh;
   min-height: 85px;
@@ -27,8 +35,8 @@ header {
 
 .navbar li a:hover {
   color: var(--dark-blue) !important;
-  transform: scale(1.1);
-  transition-duration: 0.4s;
+  transform: scale(1.05);
+  transition-duration: 0.3s;
 }
 
 #home {
@@ -51,4 +59,38 @@ header {
 #home video:hover {
   transform: scale(1.02);
   transition-duration: 0.3s;
+}
+
+#memes {
+  color: var(--violet);
+  border-top: 2px solid var(--violet);
+}
+
+#memes h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#memes img {
+  width: 85%;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 2%;
+}
+
+#memes img:hover {
+  transform: scale(1.02);
+  transition-duration: 0.3s;
+}
+
+#memes .btn {
+  color: var(--violet);
+  border: 1px solid var(--violet);
+}
+
+#memes .btn:hover {
+  color: #ffffff;
+  background-color: var(--violet);
+  border: 1px solid var(--violet);
+  transform: scale(1.1);
 }
