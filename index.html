@@ -22,7 +22,7 @@
 <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
   <header> 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand mb-0 h1" href="#">
         <h1>
           <span style='color: #09F911'>L</span>
@@ -40,8 +40,8 @@
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Memes</a>
@@ -58,22 +58,28 @@
     <!-- /navbar -->
   </header>
     
-  <div class="container-fluid" id="hero">
+  <div class="container-fluid" id="home">
     <div class="row align-items-center">
-      <div class="col-sm mt-5 text-center">
-        <h1>Without freedom of speech we would never know WHO the idiots are.</h1>
-        <p class="lead mt-5"><strong>START USING LBRY TODAY TO ENJOY REAL FREEDOM:</strong></p>
-        <div clas="text-center">       
-          <button type="button" class="btn btn-outline-primary btn-sm fa fa-windows"> Windows</button>
-          <button type="button" class="btn btn-outline-dark btn-sm fa fa-apple ml-2"> macOS</button>
-          <button type="button" class="btn btn-outline-secondary btn-sm fa fa-linux ml-2"> Linux</button>
-          <button type="button" class="btn btn-outline-success btn-sm fa fa-android ml-2"> Android</button>
+      <div class="col-lg-12 mt-2 text-center">
+        <h1 class="mt-2">Without freedom of speech we would never know WHO the idiots are.</h1>
+        <p class="lead mt-2"><strong>START USING LBRY TODAY TO ENJOY REAL FREEDOM:</strong></p>
+        <div class="text-center mb-2">       
+          <button type="button" href="https://lbry.com/get" class="btn btn-outline-primary btn-sm fa fa-windows"> Windows</button>
+          <button href="https://lbry.com/get" type="button" class="btn btn-outline-dark btn-sm fa fa-apple ml-2"> macOS</button>
+          <button href="https://lbry.com/get" type="button" class="btn btn-outline-secondary btn-sm fa fa-linux ml-2"> Linux</button>
+          <button href="https://lbry.com/get" type="button" class="btn btn-outline-success btn-sm fa fa-android ml-2"> Android</button>
         </div>
+      </div>
+      <div class="col-lg-12 mt-2 text-center mt-2">
+        <p class="text-muted"><small>See previews of the LBRY app and the great content available now on LBRY.</small></p>
+        <video source src="https://cdn.lbryplayer.xyz/api/v3/streams/free/meetlbrytv/c6c0a5caa6cc391696e1270e33cd9d24ee7c2d52/fb953a" type="video/mp4" tab-index="-1" poster="./img/video-poster.JPG" controls>
+        </video>
       </div>
     </div>
   </div>
-
-  <div class="container pt-4">
+  <hr>
+  
+  <!-- <div class="container pt-4"> -->
     <!-- about -->
     <!-- <div id="about" class="row">
       <div class="col-lg order-lg-2">
@@ -278,7 +284,7 @@
       </div> -->
       <!-- /footer -->
       
-    </div>
+    <!-- </div> -->
     <!-- /.container --> 
     
     <!-- Optional JavaScript -->

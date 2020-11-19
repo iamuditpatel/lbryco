@@ -6,13 +6,18 @@
   --violet: #635688;
 }
 
+body {
+  background-color: #ffffff;
+}
+
 header {
   height: 10vh;
   min-height: 85px;
 }
 
-.navbar-light {
+.navbar {
   z-index: 1;
+  border-bottom: 1px solid var(--violet);
 }
 
 .navbar li a {
@@ -22,14 +27,28 @@ header {
 
 .navbar li a:hover {
   color: var(--dark-blue) !important;
+  transform: scale(1.1);
+  transition-duration: 0.4s;
 }
 
-.navbar li a:visited {
-  color: var(--violet);
-}
-
-#hero {
+#home {
   height: 87vh;
   color: var(--dark-green);
-  background-color: #ffffff;
+}
+
+#home h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#home video {
+  border: 2px solid var(--dark-green);
+  border-radius: 2%;
+  width: 50%;
+  height: 30%;
+}
+
+#home video:hover {
+  transform: scale(1.02);
+  transition-duration: 0.3s;
 }
