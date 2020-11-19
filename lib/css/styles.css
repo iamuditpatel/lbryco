@@ -18,6 +18,8 @@ body {
   transform: scale(1.02);
   transition-duration: 0.3s;
 }
+
+/***** Header *****/
 header {
   height: 10vh;
   min-height: 85px;
@@ -38,7 +40,11 @@ header {
   transform: scale(1.05);
   transition-duration: 0.3s;
 }
+/***** /Header *****/
 
+
+
+/***** Home *****/
 #home {
   height: 87vh;
   color: var(--dark-green);
@@ -60,7 +66,11 @@ header {
   transform: scale(1.02);
   transition-duration: 0.3s;
 }
+/***** /Home *****/
 
+
+
+/***** Memes *****/
 #memes {
   color: var(--violet);
   border-top: 2px solid var(--violet);
@@ -94,3 +104,37 @@ header {
   border: 1px solid var(--violet);
   transform: scale(1.1);
 }
+/***** Memes *****/
+
+
+
+/***** Rewind *****/
+#rewind {
+  color: var(--dark-blue);
+  border-top: 2px solid var(--dark-blue);
+}
+
+#rewind h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#rewind iframe {
+  width: 675px;
+  height: 400px;
+  border: 1px solid var(--dark-blue);
+  border-radius: 2%;
+}
+
+#rewind iframe:hover {
+  transform: scale(1.02);;
+  transition-duration: 0.3s;
+}
+
+@media (max-width:480px) {
+  #rewind iframe {
+    width: 80%;
+    height: 50%;
+  }
+}
+/***** Rewind *****/
