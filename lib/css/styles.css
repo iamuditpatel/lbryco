@@ -226,3 +226,30 @@ header {
 #web_dev .portfolio:hover span{
   color: var(--dark-pink);
 }
+
+
+/***** Services *****/
+#services {
+  color: var(--violet);
+}
+
+#services h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--dark-pink);
+}
+
+#services p {
+  font-size: 1.2rem;
+}
+
+#services .icon:hover {
+  color: var(--dark-pink);
+  transform: scale(1.2);
+  transition: color 0.3s ease-out;
+}
+/***** /Services *****/
+
+
+
+/***** /Web Development *****/
