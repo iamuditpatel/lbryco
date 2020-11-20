@@ -182,3 +182,47 @@ header {
   }
 }
 /***** /Rewind *****/
+
+
+
+/***** Web Development *****/
+#web_dev {
+  color: var(--dark-pink);
+  border-top: 2px solid var(--dark-pink);
+}
+
+#web_dev h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#web_dev em {
+  font-size: 1.5rem;
+}
+
+#web_dev a {
+  text-decoration: none;
+  color: var(--dark-pink);
+}
+
+#web_dev .portfolio {
+  border: 1px solid var(--dark-pink);
+}
+
+#web_dev .portfolio:hover {
+  transform: scale(1.009);
+  transition-duration: 0.3s;
+}
+
+#web_dev .portfolio .card-body {
+  background-color: var(--violet);
+}
+
+#web_dev .portfolio span {
+  color: var(--violet);
+  transition: color 0.3s ease-out;
+}
+
+#web_dev .portfolio:hover span{
+  color: var(--dark-pink);
+}
