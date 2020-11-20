@@ -62,6 +62,20 @@ header {
   height: 30%;
 }
 
+@media (max-width:480px) {
+  #home video {
+    width: 80%;
+    height: 50%;
+  }
+}
+
+@media (min-width: 481px) and (max-width:560px) {
+  #home video {
+    width: 80%;
+    height: 50%;
+  }
+}
+
 #home video:hover {
   transform: scale(1.02);
   transition-duration: 0.3s;
