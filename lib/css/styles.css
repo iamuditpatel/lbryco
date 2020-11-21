@@ -25,17 +25,17 @@ header {
   min-height: 85px;
 }
 
-.navbar {
+header .navbar {
   z-index: 1;
   border-bottom: 1px solid var(--violet);
 }
 
-.navbar li a {
+header .navbar li a {
   color: var(--dark-pink) !important;
   font-weight: 500;
 }
 
-.navbar li a:hover {
+header .navbar li a:hover {
   color: var(--dark-blue) !important;
   transform: scale(1.05);
   transition-duration: 0.3s;
@@ -251,5 +251,25 @@ header {
 /***** /Services *****/
 
 
-
 /***** /Web Development *****/
+
+
+
+/***** Footer *****/
+footer {
+  color: var(--green);
+  background-color: var(--dark-blue);
+  border-top: 5px solid var(--violet);
+}
+
+footer .navbar li a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--dark-pink) !important;
+}
+
+footer .navbar span {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+/***** /Footer *****/
