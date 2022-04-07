@@ -46,7 +46,7 @@ header .navbar li a:hover {
 
 /***** Home *****/
 #home {
-  height: 87vh;
+  height: 10vh;
   color: var(--dark-green);
 }
 
